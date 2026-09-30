@@ -16,9 +16,10 @@
 4. 应用名称和包名自定义即可
 5. 生成 APK 安装即可
 
-## 更多项目
+## 推荐
 
-[请关注我的其他开源项目](https://github.com/dujeongil-galaxy)
+- [VPN机场推荐](https://www.xiaoba001.com/)
+- [请关注我的其他开源项目](https://github.com/dujeongil-galaxy)
 
 ## License
 
