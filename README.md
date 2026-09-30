@@ -1,11 +1,27 @@
-# 双休购使用指南
+# 双休购 2.0 使用指南
 
-双休购（ShuangxiuGo）是一个开源的劳工友好品牌索引工具。
+公开资料与消费决策工具。查品牌、穿透经营主体、读懂证据，再找同类替代。
 
-## 在线访问
+## 在线使用
 
-- 主站：https://dujeongil-galaxy.github.io/shuangxiugou/
+打开 **https://dujeongil-galaxy.github.io/shuangxiugou-guide/**
 
-## 相关仓库
+## 做成手机 APP（网页套壳）
 
-- [shuangxiugou](https://github.com/dujeongil-galaxy/shuangxiugou) - 主站
+本项目是纯静态网页，可用「一个木函」APP 一键套成 APK：
+
+1. 下载安装「一个木函」（Android）
+2. 打开 → 工具箱 → 网页转应用
+3. 填入网址：`https://dujeongil-galaxy.github.io/shuangxiugou-guide/`
+4. 应用名称和包名自定义即可
+5. 生成 APK 安装即可
+
+## 相关项目
+
+- [双休购主站](https://github.com/dujeongil-galaxy/shuangxiugou)
+- [莆田系医院查询](https://github.com/dujeongil-galaxy/putian-hospital-list)
+- [更多项目](https://github.com/dujeongil-galaxy)
+
+## License
+
+仅供参考，不构成医疗或投资建议。
