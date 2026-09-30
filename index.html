@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="双休购 2.0：查品牌背后主体、看作息证据完整度、对比同类产品并生成个人认购清单。" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://fuzzylogic112.github.io/shuangxiugou-guide/" />
+    <meta property="og:title" content="双休购 2.0｜把每次消费变成一次有依据的选择" />
+    <meta property="og:description" content="246 个企业与品牌，证据护照、主体穿透、双品牌对比、同类替代建议。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fuzzylogic112.github.io/shuangxiugou-guide/" />
+    <meta property="og:image" content="https://fuzzylogic112.github.io/shuangxiugou-guide/assets/weekend-hero.webp" />
+    <title>双休购 2.0｜公开资料与消费决策工具</title>
+    <link rel="preload" href="./assets/weekend-hero.webp" as="image" type="image/webp" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./data.js" defer></script>
+    <script src="./insight.js" defer></script>
+    <script src="./app.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "双休购 2.0",
+        "url": "https://fuzzylogic112.github.io/shuangxiugou-guide/",
+        "description": "提供企业、品牌、产品关系与公开作息证据的可解释消费决策工具。",
+        "inLanguage": "zh-CN",
+        "isAccessibleForFree": true
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#directory">跳到企业目录</a>
+
+    <div class="topbar">
+      <div class="shell topbar-inner">
+        <p>独立公益项目 · 无广告 · 无付费排名</p>
+        <div><a href="#method">核验方法</a><span></span><a id="topGithubLink" href="#" target="_blank" rel="noreferrer">开放数据</a></div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="shell nav-shell">
+        <a class="brand" href="#top" aria-label="双休购首页">
+          <span class="brand-mark" aria-hidden="true">休</span>
+          <span><strong>双休购</strong><small>公开资料导航</small></span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+          <a href="#top">首页</a>
+          <a href="#passport">证据护照</a>
+          <a href="#trace">主体穿透</a>
+          <a href="#compare">品牌对比</a>
+          <a href="#directory">企业目录</a>
+        </nav>
+        <button class="header-list" id="openList" type="button" aria-controls="supportDrawer">
+          认购清单 <span id="listCount" aria-label="0 项">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="hero-panel">
+          <div class="hero-copy">
+            <p class="kicker">双休购 2.0</p>
+            <h1>买什么之前，<br />先看谁在<br /><span>好好休息。</span></h1>
+            <p class="hero-lead">不做情绪红黑榜。查品牌、穿透经营主体、读懂证据，再找到同类替代。</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#passport">立即查品牌</a>
+              <a class="button button-plain" href="#directory">浏览全部 246 条 <span>›</span></a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-label="安静周末生活与数据库概览">
+            <img class="hero-image" src="./assets/weekend-hero.webp" width="1536" height="1024" alt="阳光下的休闲椅、购物袋、包裹和点亮两个橙色周末方块的日历" fetchpriority="high" decoding="async" />
+            <div class="hero-art-label"><span>把周末还给生活</span><small>从一份有依据的消费选择开始</small></div>
+            <div class="hero-data">
+              <div class="hero-number"><span>公开资料库</span><strong id="statCompanies">—</strong><small>企业 / 品牌记录</small></div>
+              <div class="hero-mini-grid">
+                <div><strong id="statCategories">—</strong><span>行业</span></div>
+                <div><strong id="statSources">—</strong><span>来源</span></div>
+                <div class="accent"><strong id="statSupport">—</strong><span>优先了解</span></div>
+              </div>
+              <p>资料截至 <time datetime="2026-09-09">2026.09.09</time></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-strip shell" aria-label="核心功能">
+        <a href="#passport"><span class="service-icon">01</span><div><strong>证据护照</strong><small>四维评分，不藏算法</small></div><b>›</b></a>
+        <a href="#trace"><span class="service-icon">02</span><div><strong>主体穿透</strong><small>产品到品牌再到公司</small></div><b>›</b></a>
+        <a href="#compare"><span class="service-icon">03</span><div><strong>品牌对比</strong><small>同一把尺看两家公司</small></div><b>›</b></a>
+        <a href="#directory"><span class="service-icon">04</span><div><strong>同类替代</strong><small>风险项也给下一步</small></div><b>›</b></a>
+      </section>
+
+      <section class="spotlight section shell">
+        <div class="section-title">
+          <div><p>编辑推荐</p><h2>先从证据更完整的品牌看起</h2></div>
+          <a href="#directory">查看全部 <span>›</span></a>
+        </div>
+        <div class="spotlight-grid" id="spotlightGrid"></div>
+      </section>
+
+      <section class="lab-section section" id="passport">
+        <div class="shell">
+          <div class="section-title">
+            <div><p>核心技术 01</p><h2>证据护照</h2><span>评分的是公开证据完整度，不是企业好坏。</span></div>
+          </div>
+          <div class="passport-layout">
+            <div class="passport-control">
+              <label for="passportSelect">选择一个品牌</label>
+              <select id="passportSelect" aria-label="选择要生成证据护照的品牌"></select>
+              <p>规则引擎从证据等级、资料新鲜度、适用范围和来源数量四个维度计算，任何人都能复算。</p>
+              <button class="text-link" id="passportDetail" type="button">查看该品牌全部原始证据 ›</button>
+            </div>
+            <div class="passport-card" id="passportResult" aria-live="polite"></div>
+          </div>
+          <div class="freshness-bar" id="freshnessPanel"></div>
+        </div>
+      </section>
+
+      <section class="trace-section section shell" id="trace">
+        <div class="section-title">
+          <div><p>核心技术 02</p><h2>品牌背后，到底是谁？</h2><span>把“产品—品牌—经营主体—岗位范围—证据”放在一条链上。</span></div>
+        </div>
+        <div class="trace-shell">
+          <div class="trace-search">
+            <label for="traceInput">输入品牌或产品</label>
+            <div><input id="traceInput" list="brandOptions" placeholder="例如：东方树叶、美的、无人机" autocomplete="off" /><button id="traceRun" type="button">开始穿透</button></div>
+            <datalist id="brandOptions"></datalist>
+            <p id="traceHint">支持品牌名、公司名和代表产品关键词。</p>
+          </div>
+          <div class="trace-result" id="traceResult" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="compare-section section" id="compare">
+        <div class="shell">
+          <div class="section-title">
+            <div><p>核心技术 03</p><h2>同类品牌，放在一起看</h2><span>不替你下结论，只把差异和缺口摆在桌面上。</span></div>
+          </div>
+          <div class="compare-controls">
+            <label>品牌 A<select id="compareA" aria-label="选择对比品牌 A"></select></label>
+            <button id="swapCompare" type="button" aria-label="交换两个品牌">⇄</button>
+            <label>品牌 B<select id="compareB" aria-label="选择对比品牌 B"></select></label>
+          </div>
+          <div class="compare-result" id="compareResult" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="directory section shell" id="directory">
+        <div class="section-title directory-title">
+          <div><p>全部资料</p><h2>企业与产品目录</h2><span>默认显示 A / B / C；待核验和风险项需要主动切换。</span></div>
+          <button id="downloadData" class="text-button" type="button">下载开放数据 JSON</button>
+        </div>
+
+        <div class="toolbar">
+          <label class="search-box">
+            <span class="visually-hidden">搜索企业或产品</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-4-4" /></svg>
+            <input id="searchInput" type="search" placeholder="搜索品牌、企业、产品" autocomplete="off" />
+          </label>
+          <label class="select-box"><span>行业</span><select id="categoryFilter" aria-label="按行业筛选"><option value="all">全部行业</option></select></label>
+          <label class="select-box"><span>证据</span><select id="statusFilter" aria-label="按证据层级筛选"><option value="support">可优先了解</option><option value="verified">公开确认 A</option><option value="reported">媒体报道 B</option><option value="candidate">汇总候选 C</option><option value="pending">产品待核验</option><option value="caution">风险提示</option><option value="all">全部记录</option></select></label>
+        </div>
+        <div class="quick-filters" id="quickFilters" aria-label="快速行业筛选"></div>
+        <div class="results-line" aria-live="polite"><p><strong id="resultCount">0</strong> 条匹配记录</p><label><span>排序</span><select id="sortSelect" aria-label="结果排序"><option value="evidence">证据优先</option><option value="score">完整度优先</option><option value="category">行业分类</option><option value="name">名称 A-Z</option></select></label></div>
+        <div class="card-grid" id="cardGrid"></div>
+        <div class="empty-state" id="emptyState" hidden><strong>没有匹配项</strong><p>试试产品名、公司名或更短的关键词。</p><button id="resetFilters" type="button">清除筛选</button></div>
+        <button class="load-more" id="loadMore" type="button">继续加载</button>
+      </section>
+
+      <section class="method-section section" id="method">
+        <div class="shell">
+          <div class="section-title light"><div><p>方法公开</p><h2>把不确定，也诚实地展示出来</h2><span>同一家公司不同城市、子公司、门店和岗位可能完全不同。</span></div></div>
+          <div class="method-grid">
+            <article><span>A</span><h3>公开确认</h3><p>企业回应或可查文件。只覆盖资料明确写到的主体、岗位和时间。</p></article>
+            <article><span>B</span><h3>媒体报道</h3><p>有可靠公开报道，但实施范围或持续性还不完整。</p></article>
+            <article><span>C</span><h3>汇总候选</h3><p>公开清单、招聘口径或员工样本。适合做核验起点。</p></article>
+            <article><span>?</span><h3>待核验 / 风险</h3><p>只确认产品关系，或存在单休、大小周、倒班等相反线索。</p></article>
+          </div>
+          <div class="method-note"><strong>评分边界</strong><p>“证据完整度”仅回答这条资料有多可追溯、多新、范围写得多清楚。它不代表劳动条件总分，也不是购买或法律建议。</p><a href="./RESEARCH.md" target="_blank">阅读完整研究档案 ›</a></div>
+        </div>
+      </section>
+
+      <section class="source-section section shell" id="sources">
+        <div class="section-title"><div><p>资料来源</p><h2>每个结论都能回到原文</h2><span>结论可以更正，来源必须保留。</span></div></div>
+        <div class="source-grid" id="sourceGrid"></div>
+      </section>
+
+      <section class="open-data shell">
+        <div><p>开放协作</p><h2>这不是一份封闭名单。</h2><span>下载数据、检查算法、提交反证，让标签跟着事实更新。</span></div>
+        <div><button id="downloadDataBottom" type="button">下载 JSON</button><a id="issueLink" href="#" target="_blank" rel="noreferrer">提交更正</a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">休</span><span><strong>双休购</strong><small>公开资料导航</small></span></a>
+        <p>独立、非官方、无广告返利。本站不构成企业最终评价、法律结论、投资或购买建议。</p>
+        <div><a href="#method">方法</a><a href="#sources">来源</a><a id="githubLink" href="#" target="_blank" rel="noreferrer">GitHub</a></div>
+      </div>
+    </footer>
+
+    <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+    <aside class="support-drawer" id="supportDrawer" aria-hidden="true" aria-labelledby="drawerTitle">
+      <div class="drawer-head"><div><small>仅保存在当前浏览器</small><h2 id="drawerTitle">我的认购清单</h2></div><button id="closeList" type="button" aria-label="关闭清单">×</button></div>
+      <p class="drawer-intro">这里不是购物车。它是一张购买前复核清单，不上传、不跟踪，也不从购买中分成。</p>
+      <div class="drawer-items" id="drawerItems"></div>
+      <div class="drawer-empty" id="drawerEmpty"><strong>清单还是空的</strong><p>把想优先了解的 A / B / C 条目加入这里。</p></div>
+      <div class="drawer-actions"><button id="copyList" type="button">复制清单</button><button id="exportList" type="button">导出 CSV</button></div>
+    </aside>
+
+    <dialog class="detail-dialog" id="detailDialog">
+      <button class="dialog-close" id="closeDialog" type="button" aria-label="关闭详情">×</button>
+      <div id="dialogContent"></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
