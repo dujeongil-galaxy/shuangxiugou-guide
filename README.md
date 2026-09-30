@@ -19,9 +19,9 @@
 ## 推荐
 
 VPN机场推荐：
-https://www.xiaoba001.com/
+https://74.82.196.10:8000/register?aff=v17mHNYv
 
-[点击这里](https://github.com/dujeongil-galaxy)关注我的其他项目
+[这里](https://github.com/dujeongil-galaxy)关注我的其他项目
 
 ## License
 
