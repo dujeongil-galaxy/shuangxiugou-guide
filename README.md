@@ -18,8 +18,10 @@
 
 ## 推荐
 
-- [VPN机场推荐](https://www.xiaoba001.com/)
-- [请关注我的其他开源项目](https://github.com/dujeongil-galaxy)
+VPN机场推荐：
+https://www.xiaoba001.com/
+
+[点击这里](https://github.com/dujeongil-galaxy)关注我的其他项目
 
 ## License
 
