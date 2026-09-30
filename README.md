@@ -21,7 +21,7 @@
 VPN机场推荐：
 https://74.82.196.10:8000/register?aff=v17mHNYv
 
-[这里](https://github.com/dujeongil-galaxy)关注我的其他项目
+点击[这里](https://github.com/dujeongil-galaxy)关注我的其他项目
 
 ## License
 
