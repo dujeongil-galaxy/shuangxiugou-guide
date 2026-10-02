@@ -2,7 +2,7 @@
 
 双休购使用说明、数据贡献指南、品牌查询手册。
 
-> 基于 [ZhiqingHeyi/shuangxiugou](https://github.com/ZhiqingHeyi/shuangxiugou) 项目生态编写，MIT License
+> 基于 [fuzzylogic112/shuangxiugou-guide](https://github.com/fuzzylogic112/shuangxiugou-guide) 修改，MIT License
 
 ## 在线使用
 
@@ -19,7 +19,7 @@
 ```
 MIT License
 
-Copyright (c) 2024 ZhiqingHeyi
+Copyright (c) 2024 fuzzylogic112
 Copyright (c) 2026 dujeongil-galaxy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
