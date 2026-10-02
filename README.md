@@ -69,6 +69,17 @@ python -m http.server 4173
 
 完整的资料边界和分级方法见 RESEARCH.md。
 
-## 许可
+---
 
-站点代码使用 [MIT License](./LICENSE)。第三方文章、商标、公司名称和产品名称仍归各自权利人所有；仓库只保存必要的事实性索引与短摘要，不重新分发原文素材。
+推荐
+VPN机场推荐：https://74.82.196.10:8000/register?aff=v17mHNYv
+
+点击[这里](https://github.com/dujeongil-galaxy)关注我的其他项目
+
+⚖️ 免责声明
+本指南所有内容均来源于公开资料与社区众包验证。数据仅供个人择业参考，不构成商业背书。
+如发现信息有误或需要更正，欢迎通过 GitHub Issues 提交反馈。
+
+License
+MIT License © 2024 fuzzylogic112 / 2026 dujeongil-galaxy
+仅供择业参考，数据为社区众包汇总，请理性看待。
