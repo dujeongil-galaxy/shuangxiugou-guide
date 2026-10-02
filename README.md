@@ -81,5 +81,5 @@ VPN机场推荐：https://74.82.196.10:8000/register?aff=v17mHNYv
 如发现信息有误或需要更正，欢迎通过 GitHub Issues 提交反馈。
 
 License
-MIT License © 2024 fuzzylogic112 / 2026 dujeongil-galaxy
+MIT License © 2024 [fuzzylogic112](https://github.com/FuzzyLogic112) / 2026 dujeongil-galaxy
 仅供择业参考，数据为社区众包汇总，请理性看待。
