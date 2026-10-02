@@ -1,28 +1,46 @@
-# 双休购 2.0 使用指南
+# 双休购 · 使用指南
 
-公开资料与消费决策工具。查品牌、穿透经营主体、读懂证据，再找同类替代。
+双休购使用说明、数据贡献指南、品牌查询手册。
+
+> 基于 [ZhiqingHeyi/shuangxiugou](https://github.com/ZhiqingHeyi/shuangxiugou) 项目生态编写，MIT License
 
 ## 在线使用
 
 打开 **https://dujeongil-galaxy.github.io/shuangxiugou-guide/**
 
-## 做成手机 APP（网页套壳）
+主站地址：https://dujeongil-galaxy.github.io/shuangxiugou/
 
-本项目是纯静态网页，可用「一个木函」APP 一键套成 APK：
+---
 
-1. 下载安装「一个木函」（Android）
-2. 打开 → 工具箱 → 网页转应用
-3. 填入网址：`https://dujeongil-galaxy.github.io/shuangxiugou-guide/`
-4. 应用名称和包名自定义即可
-5. 生成 APK 安装即可
+## 开源协议
 
-## 推荐
+本项目基于 MIT 协议开源，可自由使用、修改、分发，保留原作者版权声明即可。
 
-VPN机场推荐：
-https://74.82.196.10:8000/register?aff=v17mHNYv
+```
+MIT License
 
-点击[这里](https://github.com/dujeongil-galaxy)关注我的其他项目
+Copyright (c) 2024 ZhiqingHeyi
+Copyright (c) 2026 dujeongil-galaxy
 
-## License
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-仅供参考，不构成投资建议。
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+*本指南所有内容仅作为求职与消费参考，不构成任何就业建议或投资建议。*
