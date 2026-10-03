@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dujeongil-galaxy.github.io/shuangxiugou-guide/sitemap.xml
