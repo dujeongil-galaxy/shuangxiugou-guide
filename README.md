@@ -80,6 +80,12 @@ python -m http.server 4173
 推荐
 VPN机场推荐：
 
+https://47.112.97.173:8000/register?aff=v17mHNYv
+
+备用线路：
+
+https://43.129.78.33:8000/register?aff=v17mHNYv
+
 https://74.82.196.10:8000/register?aff=v17mHNYv
 
 点击[这里](https://github.com/dujeongil-galaxy)关注我的其他项目
